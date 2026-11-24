@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LocalDebuggerCommand>cmd.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>/c "chcp 65001 &gt;nul &amp;&amp; "$(TargetPath)" &amp; pause"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArgumentsHistory>/c "chcp 65001 &gt;nul &amp;&amp; "D:\LR11_Variant10\x64\Debug\Part5_Task3_Dangling.exe" &amp; pause"|</LocalDebuggerCommandArgumentsHistory>
+  </PropertyGroup>
+</Project>
